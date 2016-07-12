@@ -1,9 +1,8 @@
 import { install } from 'mocha-testcheck';
 import { getRandomIntInclusive } from './index.js';
+import assert from 'assert';
 
 install();
-
-const assert = require('assert');
 
 describe('Dice', function () {
 
