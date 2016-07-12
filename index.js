@@ -9,7 +9,7 @@ const copy = (thing) => {
     ncp.copy(thing, () => console.log('(was copied to clipboard)'));
 }
 
-const getRandomIntInclusive = (min=1, max=6) => {
+export const getRandomIntInclusive = (min=1, max=6) => {
   return Math.floor(Math.random() * (max - min +1)) + min;
 }
 
